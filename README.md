@@ -51,6 +51,7 @@ Full documentation for all versions can be found [on the website](https://w3id.o
     - **Type**:     
         - Stream elements split by time ([rb:TimeStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TimeStreamElementSplit))
         - Stream elements split by topic ([rb:TopicStreamElementSplit](https://w3id.org/riverbench/schema/metadata#TopicStreamElementSplit))
+    - **<abbr title="The IRI of the property that is used in the stream to denote time at which the event occured.">Has temporal property</abbr>**: [http://purl.org/NET/c4dm/timeline.owl#at](http://purl.org/NET/c4dm/timeline.owl#at)
     - **<abbr title="A description of the subject resource.">Comment</abbr>**: Each element corresponds to one measurement made by a traffic sensor.
 - **<abbr title="Indicates that the dataset uses an ontology. The object must be a resource, but it doesn't neccesarily have to be an OWL ontology.">Uses ontology</abbr>**: 
     - [http://iot.ee.surrey.ac.uk/citypulse/resources/ontologies/sao.ttl](http://iot.ee.surrey.ac.uk/citypulse/resources/ontologies/sao.ttl)
