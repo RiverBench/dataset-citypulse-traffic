@@ -50,6 +50,7 @@
     rb:hasStreamElementType rb:triples ;
     rb:hasStreamElementSplit [
         a rb:TimeStreamElementSplit, rb:TopicStreamElementSplit ;
+        rb:hasTemporalProperty <http://purl.org/NET/c4dm/timeline.owl#at> ;
         rdfs:comment "Each element corresponds to one measurement made by a traffic sensor."@en
     ] ;
     rb:conformsToRdf11 true ;
